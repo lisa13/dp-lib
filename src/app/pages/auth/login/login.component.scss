@@ -1,0 +1,52 @@
+@import '../../../../assets/styles/fonts.scss';
+@import '../../../../assets/styles/colors';
+
+.container {
+    width: 100%;
+
+    .logo {
+        width: 110px;
+        height: inherit;
+    }
+
+    .title {
+        font-family: $nsd_regular;
+        font-size: 3.3rem;
+        color: $dark_grey;
+
+        span {
+            font-family: $nsd_thin;
+        }
+    }
+
+    .card-container {
+        text-align: center;
+
+        mat-card {
+            height: 15rem;
+            width: 23rem;
+
+            button {
+                margin-top: 1rem;
+                width: 83%;
+            }
+        }
+    }
+
+    .footer {
+        width: inherit;
+        position: absolute;
+        bottom: 0;
+        border-top: 4px solid rgb(255, 250, 250);
+        font-size: .8rem;
+
+       .underlined{
+           text-decoration: underline;
+           color: $primary_color;
+       }
+
+       &:last-child{
+           color: $medium_grey;
+       }
+    }
+}

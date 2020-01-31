@@ -1,0 +1,16 @@
+@import '../../../assets/styles/colors.scss';
+
+.container {
+    height: 100%;
+    width: 18rem;
+
+    .centered {
+        width: 2.5rem;
+        margin-top: .2rem;
+        text-align: center;
+    }
+
+    a{
+        color:$medium_grey; 
+    }
+}

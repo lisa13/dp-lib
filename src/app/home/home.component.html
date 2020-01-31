@@ -1,0 +1,9 @@
+<app-header></app-header>
+<div  fxLayout="row" [ngStyle]="{ 'min-height': (containerHeight - 100) + 'px' }">
+    <div class="side-panel">
+        <app-side-panel></app-side-panel>
+    </div>
+    <div class="main-container">
+        <router-outlet></router-outlet>
+    </div>
+</div>
