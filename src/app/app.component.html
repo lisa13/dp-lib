@@ -1,0 +1,26 @@
+<div class="margin">
+    <dp-button type="button" text="Primary button" mode="primary"></dp-button>
+    <dp-button type="button" text="Secondary" mode="secondary"></dp-button>
+</div>
+
+<div style="background: #ffffff; margin: 16px">
+    <dp-text-input placeholder="Username" [inputControl]="username" [required]="true"></dp-text-input>
+    <dp-password-input placeholder="Password" [inputControl]="password" [required]="true"></dp-password-input>
+</div>
+
+<div class="margin">
+    <dp-list-header firstLabel="Name" thirdLabel="Last Update"></dp-list-header>
+</div>
+
+<div class="margin">
+    <dp-list-item [icon]="'../assets/img/Bitmap.png'" firstLabel="Label 1" secondLabel="Button label"
+        thirdLabel="Yesterday"></dp-list-item>
+</div>
+
+<div class="margin">
+    <dp-menu-list-heading heading="DOCUMENTS"></dp-menu-list-heading>
+</div>
+
+<div class="margin">
+    <dp-menu-list-item [icon]="'file.png'" rout="https://sketch.cloud/s/v1z2e/a/9jGjY7/play" label="My documents"></dp-menu-list-item>
+</div>

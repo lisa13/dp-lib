@@ -1,0 +1,87 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'assets/styles/fonts.scss';
+@import 'assets/styles/colors';
+
+html {
+    height: 100%;
+
+    body {
+        height: 100%;
+        position: relative;
+        background: $light_grey;
+        font-family: $nsd_regular, sans-serif;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    background-color: $light_grey;
+}
+
+input {
+    margin: .3rem;
+    padding: 1.1rem;
+    border-radius: 13px;
+    background: $light_grey;
+    color: $mixed_grey;
+    width: 17rem;
+}
+
+.list-label {
+    font-size: 1rem;
+    display: inline;
+    color: $dark_grey;
+}
+
+.shadow {
+    box-shadow: 0 3px 13px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(13, 143, 249, 0.5), 0 4px 4px 0 rgba(13, 143, 249, 0.23);
+    -moz-box-shadow: 0 3px 13px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(13, 143, 249, 0.5), 0 4px 4px 0 rgba(13, 143, 249, 0.23);
+    -webkit-box-shadow: 0 3px 13px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(13, 143, 249, 0.5), 0 4px 4px 0 rgba(13, 143, 249, 0.23);
+}
+
+.section-title {
+    font-size: 2rem;
+    font-family: $nsd_bold;
+    color: $dark_grey;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-family: $nsd_bold;
+    color: $mixed_grey;
+}
+
+.margin {
+    margin: 1rem;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  -webkit-text-fill-color: $mixed_grey;
+  box-shadow: 0 0 0px 1000px $light_grey inset;
+  -webkit-box-shadow: 0 0 0px 1000px $light_grey inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
